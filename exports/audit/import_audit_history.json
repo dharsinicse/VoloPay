@@ -1,0 +1,33 @@
+[
+  {
+    "timestamp": "2026-08-22T09:00:00+05:30",
+    "batch_id": "initial-001",
+    "revision": 1,
+    "total_in_batch": 44,
+    "records_added": 44,
+    "records_updated": 0,
+    "duplicates_ignored": 0,
+    "total_unique_records_after": 44,
+    "usable_transcripts_after": 17
+  },
+  {
+    "timestamp": "2026-08-22T10:00:00+05:30",
+    "batch_id": "update-002",
+    "revision": 2,
+    "total_in_batch": 1,
+    "records_added": 0,
+    "records_updated": 1,
+    "duplicates_ignored": 0,
+    "transcript_availability_changes": [
+      {
+        "record_ref": "M07",
+        "source_type": "meeting",
+        "source_id": "4f304fff-fd40-5cfc-a366-0a134c445c2a",
+        "previous": false,
+        "current": true
+      }
+    ],
+    "total_unique_records_after": 44,
+    "usable_transcripts_after": 18
+  }
+]
